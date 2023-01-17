@@ -1,0 +1,31 @@
+* {
+    /* cursor: none; */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    /* background-color: aqua; */
+    /* background-image: linear-gradient(69deg, red, yellow, black); */
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px solid rgb(35, 223, 113);
+    pointer-events: all;
+    /* z-index: -100; */
+    transition: 0.12s;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(51, 202, 164);
+    border-radius: 50%;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    transition: 0.1s;
+}

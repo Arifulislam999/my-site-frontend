@@ -1,0 +1,57 @@
+import React from "react";
+
+const PortfolioSingle = ({ data }) => {
+    const { image, tags, name } = data;
+
+    return (
+        <>
+            <img src={image} draggable={false} alt={name} />
+            <div>
+                <p className="tags">{tags.map((tag) => tag).join(", ")}</p>
+                <p className="portfolio-name">{name}</p>
+            </div>
+        </>
+    );
+};
+
+export default PortfolioSingle;
+
+
+
+import React from "react";
+import { useGetPortfoliosQuery } from "../../redux/Feature/portfolio/api/apiSlice";
+import "./portfolio.css";
+import PortfolioSingle from "./PortfolioSingle";
+const Portfolio = () => {
+    const {
+        isError,
+        isLoading,
+        data: portfolio,
+        error,
+    } = useGetPortfoliosQuery();
+    let content = null;
+    if (isLoading) {
+        content = <h1>Your Portfolio isLoading</h1>;
+    }
+    if (!isLoading && isError) {
+        content = <h1>`You have an ${error} occured...`</h1>;
+    }
+    if (!isLoading && !isError && portfolio?.length === 0) {
+        content = <h1>You have no Portfolio</h1>;
+    }
+    if (!isLoading && !isError && portfolio?.length > 0) {
+        content = portfolio.map((data, index) => {
+            return <PortfolioSingle key={index} data={data} />;
+        });
+    }
+    console.log(portfolio);
+    return (
+        <div>
+            <p className="p-p">PORTFOLIO</p>
+            <p className="p-f">Featured Projects</p>
+            <div className="img-slider">{content}</div>
+        </div>
+    );
+};
+
+export default Portfolio;

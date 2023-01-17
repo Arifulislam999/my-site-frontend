@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Rajdhani:wght@300&display=swap");
+
+/* font-family: "Arvo", serif;
+font-family: "Rajdhani", sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about-me-personel {
+    background-color: #0c192c;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.a-personel img {
+    width: 100%;
+    height: 80vh;
+    overflow-x: hidden;
+    border-bottom: 2px solid rgb(42, 9, 230);
+}
+.a-m-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.a-m-text {
+    font-family: "Rajdhani", sans-serif;
+    color: #228080;
+    font-size: 22px;
+    text-indent: 30px;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 2px 15px;
+    text-transform: capitalize;
+}
+.a-m-left {
+    width: 30%;
+}
+.a-m-right {
+    width: 70%;
+}
+.a-m-name {
+    color: aliceblue;
+    font-family: "Arvo", serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.a-m-title {
+    font-family: "Arvo", serif;
+    color: rgb(172, 208, 240);
+    margin-top: 20px;
+}
+.a-m-n-w {
+    font-family: "Arvo", serif;
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(111, 163, 209);
+}
+.a-m-n-w2 {
+    padding: 50px 0;
+    text-align: end;
+    margin-right: 50px;
+}
+.a-m-n-ww {
+    font-size: 23px;
+}
+.a-m-left .a-am {
+    width: 96%;
+    border-radius: 5px;
+    border: 2px solid rgb(101, 193, 209);
+    height: 200px;
+}
+.a-m-left {
+    text-align: center;
+    margin-top: 50px;
+}
+.a-m-in p:nth-child(1) {
+    color: rgb(203, 228, 250);
+    font-size: 21px;
+    font-family: "Arvo", serif;
+    margin-top: 25px;
+}
+.a-m-in p:nth-child(2) {
+    color: rgb(135, 145, 228);
+    text-transform: capitalize;
+    margin: 10px 5px;
+    font-family: "Arvo", serif;
+    padding: 5px;
+}
+.a-ul li .aa {
+    text-decoration: none;
+    font-size: 21px;
+    color: aliceblue;
+    position: relative;
+}
+
+.a-ul li .aa::after {
+    content: "";
+    width: 0%;
+    height: 0px;
+    background-color: rgb(175, 108, 108);
+    left: 0;
+    top: 25px;
+
+    position: absolute;
+    transition: all 0.2s ease-in;
+}
+.a-ul li .aa:hover:after {
+    content: "";
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(175, 108, 108);
+    left: 0;
+    top: 25px;
+    border: 1px solid rgb(22, 221, 105);
+    border-radius: 10px;
+    position: absolute;
+    color: bisque;
+}
+.a-m-me {
+    color: rgb(125, 165, 65);
+    margin-bottom: 8px;
+    margin-top: -20px;
+}
+.aaa a {
+    color: bisque;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .a-m-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .a-m-left {
+        width: 100%;
+    }
+    .a-m-right {
+        width: 100%;
+    }
+    .a-ul {
+        display: none;
+    }
+    .a-personel .a-am {
+        height: 50vh;
+    }
+    .a-m-title {
+        padding-left: 20px;
+    }
+    .a-personel img {
+        height: 60vh;
+    }
+    .scroll-top {
+        /* background-color: red; */
+        right: 15px;
+        top: 90vh;
+    }
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=EB+Garamond&family=Kanit:wght@200&family=Libre+Baskerville:ital@1&display=swap");
+.com-text {
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    color: rgb(70, 87, 102);
+    font-weight: bold;
+    display: table;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.com-text::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(18, 65, 221);
+    position: absolute;
+    left: 0;
+    top: 32px;
+}
+.com-box {
+    margin: 20px 0;
+    width: 95%;
+    text-align: justify;
+    background-color: rgb(156 163 175);
+    padding: 15px;
+    max-height: 20vh;
+    overflow: scroll;
+    border-radius: 5px;
+}
+
+.com-box q {
+    color: rgb(61, 82, 82);
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bolder;
+}
+.com-box p {
+    margin-bottom: 30px;
+    font-family: "EB Garamond", serif;
+    font-size: 19px;
+}
+@media screen and (max-width: 880px) {
+    .com-box {
+        margin: 20px 0;
+        width: 98%;
+        text-align: justify;
+        background-color: rgb(156 163 175);
+        padding: 15px;
+        max-height: 40vh;
+        overflow: scroll;
+        border-radius: 5px;
+    }
+    .com-main {
+        margin-left: 10px;
+    }
+}

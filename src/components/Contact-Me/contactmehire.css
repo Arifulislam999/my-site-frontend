@@ -1,0 +1,41 @@
+.contactmehire {
+    background-color: #37516e;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    z-index: 122;
+    top: 0;
+}
+.c-cross {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(197, 158, 158);
+    z-index: 1234;
+    right: 135px;
+    top: 10vh;
+    cursor: pointer;
+}
+.c-cross-1 {
+    position: fixed;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(5, 41, 247);
+    z-index: 1234;
+    right: 137px;
+    top: 80px;
+    border-radius: 50px;
+    transform: rotate(-45deg);
+}
+.c-cross-2 {
+    position: fixed;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(5, 41, 247);
+    z-index: 1234;
+    right: 137px;
+    top: 80px;
+    border-radius: 50px;
+    transform: rotate(45deg);
+}

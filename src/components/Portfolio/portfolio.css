@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Kanit:wght@200&family=Libre+Baskerville:ital@1&family=Ubuntu&display=swap");
+
+.p-p {
+    font-size: 21px;
+    color: grey;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 50px;
+}
+.p-f {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "Kanit", sans-serif;
+    position: relative;
+    display: table;
+    margin-bottom: 20px;
+}
+.p-f::after {
+    content: "";
+    width: 50%;
+    height: 0.5px;
+    position: absolute;
+    border: 1px solid rgb(137, 138, 145);
+    background-color: yellow;
+    border-radius: 50px;
+    left: 0;
+    top: 40px;
+}
+
+.tags {
+    color: rgb(71 85 105);
+    margin-top: 15px;
+}
+.portfolio-name {
+    font-size: 23px;
+    color: rgb(68 64 60);
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.slider-image {
+    margin-left: 10px;
+    flex-basis: 48%;
+}
+.slider-image img {
+    /* width: 100%; */
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#img {
+    width: 100%;
+}
+.img-slider {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.btn-load {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(82 82 91);
+    color: aliceblue;
+    transition: all 0.2s ease-in-out;
+}
+.btn-load:hover {
+    background-color: rgb(113 113 122);
+}
+.btn-div {
+    text-align: center;
+}
+@media screen and (max-width: 580px) {
+    .slider-image {
+        margin-left: 10px;
+        flex-basis: 98%;
+    }
+}
