@@ -1,4 +1,9 @@
-.scroll-top {
-    margin-left: 200px;
-    background-color: red;
+#scroll-top {
+    position: fixed;
+
+    top: 92vh;
+    right: 5px;
+    background-color: #554335;
+    color: aliceblue;
+    font-size: 20px;
 }

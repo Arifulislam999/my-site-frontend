@@ -8,6 +8,10 @@ import Nav from "../Nav/Nav";
 
 const Home = () => {
     const [width, setWidth] = useState(0);
+    const goToUp = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        // console.log("Click");
+    };
 
     const innerWidthArea = () => {
         setWidth(window.innerWidth);
@@ -15,6 +19,7 @@ const Home = () => {
     useEffect(() => {
         innerWidthArea();
         window.addEventListener("resize", innerWidthArea);
+        goToUp();
     }, [width]);
     return (
         <div className={width <= 1006 ? "home-mobile" : "home"}>

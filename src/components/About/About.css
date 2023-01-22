@@ -12,6 +12,7 @@
     padding-bottom: 20px;
     position: relative;
     font-family: "Arvo", serif;
+    color: rgb(156, 154, 126);
 }
 
 .about-me::after {

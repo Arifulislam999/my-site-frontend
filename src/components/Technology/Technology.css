@@ -8,6 +8,7 @@
     font-family: "EB Garamond", serif;
     margin: 30px 0;
     position: relative;
+    color: rgb(173, 142, 101);
     display: table;
 }
 .tec-h1::after {
@@ -16,7 +17,7 @@
     height: 1px;
     background-color: black;
     border-radius: 10px;
-    border: 1px solid rgb(32, 182, 3);
+    border: 1px solid rgb(111, 170, 194);
     position: absolute;
     left: 0;
     top: 32px;
