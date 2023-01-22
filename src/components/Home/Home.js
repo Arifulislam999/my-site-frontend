@@ -17,9 +17,9 @@ const Home = () => {
         setWidth(window.innerWidth);
     };
     useEffect(() => {
+        goToUp();
         innerWidthArea();
         window.addEventListener("resize", innerWidthArea);
-        goToUp();
     }, [width]);
     return (
         <div className={width <= 1006 ? "home-mobile" : "home"}>

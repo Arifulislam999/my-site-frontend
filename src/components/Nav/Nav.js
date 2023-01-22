@@ -24,11 +24,11 @@ const Nav = () => {
     };
     const handlerBlur = () => {
         setToggle((e) => !e);
-        goToUp();
+        // goToUp();
     };
     const handlerChange = () => {
-        setToggle((e) => !e);
         goToUp();
+        setToggle((e) => !e);
     };
 
     return (
