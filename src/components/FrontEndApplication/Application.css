@@ -1,46 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=EB+Garamond&family=Kanit:wght@200&family=Libre+Baskerville:ital@1&display=swap");
 .front-end-h1 {
-    font-family: "Kanit", sans-serif;
-    /* font-family: "Libre Baskerville", serif; */
-    text-align: center;
-    padding: 15px 5px;
-    font-size: 23px;
-    color: rgb(186, 238, 229);
-    background-color: rgb(61, 55, 63);
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100%;
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Libre Baskerville", serif; */
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 23px;
+  color: rgb(186, 238, 229);
+  background-color: rgb(61, 55, 63);
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
 }
 .Application {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 }
 .project-frontend {
-    background-color: #0c192c;
-    width: 100%;
-    position: absolute;
-    left: 0;
+  background-color: #0c192c;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.front-img {
+  border: 3px solid rgb(163, 91, 197);
+  /* width: 100%; */
+  border-radius: 10px;
+  margin: 10px;
+  height: 45vh;
+  overflow: hidden;
 }
 .front-img img {
-    width: 100%;
-    height: 45vh;
-    /* margin-left: 3px; */
-    transition: all 0.2s ease-in-out;
+  /* width: 50%; */
+  height: 45vh;
+  transition: all 0.2s ease-in-out;
 }
-.front-img {
-    border: 3px solid rgb(163, 91, 197);
-    border-radius: 10px;
-    margin: 10px;
-    height: 45vh;
 
-    overflow: hidden;
-}
 .front-img:hover .front-i {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+@media screen and (max-width: 426px) {
+  .front-end-h1 {
+    font-size: 18px;
+  }
+  .Application {
+    margin-top: 80px;
+  }
 }

@@ -45,62 +45,64 @@ import redux from "../../Image/redux.jpg";
 import react from "../../Image/react.png";
 import html from "../../Image/html.png";
 import css from "../../Image/css.png";
+import express from "../../Image/express.avif";
 
 export default class Technology extends Component {
-    render() {
-        const settings = {
-            dots: true,
-            infinite: true,
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
             slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true,
-                    },
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        initialSlide: 2,
-                    },
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    },
-                },
-            ],
-        };
+          },
+        },
+      ],
+    };
 
-        return (
-            <div className="techonology">
-                <h2 className="tec-h2">Technology</h2>
-                <h1 className="tec-h1">Satisfying Technology Idea</h1>
+    return (
+      <div className="techonology">
+        <h2 className="tec-h2">Technology</h2>
+        <h1 className="tec-h1">Satisfying Technology Idea</h1>
 
-                <Slider ref={(slider) => (this.slider = slider)} {...settings}>
-                    <div id="img-sli">
-                        <TechonologhBox img={html} />
-                    </div>
-                    <TechonologhBox img={css} />
-                    <TechonologhBox img={materialUI} />
-                    <TechonologhBox img={bootstrtp} />
-                    <TechonologhBox img={tailwind} />
-                    <TechonologhBox img={js} />
-                    <TechonologhBox img={redux} />
-                    <TechonologhBox img={react} />
-                </Slider>
-            </div>
-        );
-    }
+        <Slider ref={(slider) => (this.slider = slider)} {...settings}>
+          <div id="img-sli">
+            <TechonologhBox img={html} />
+          </div>
+          <TechonologhBox img={css} />
+          <TechonologhBox img={materialUI} />
+          <TechonologhBox img={bootstrtp} />
+          <TechonologhBox img={tailwind} />
+          <TechonologhBox img={js} />
+          <TechonologhBox img={redux} />
+          <TechonologhBox img={react} />
+          <TechonologhBox img={express} />
+        </Slider>
+      </div>
+    );
+  }
 }

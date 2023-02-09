@@ -1,74 +1,75 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .home-mobile {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .border {
-    width: 68%;
-    height: 51vh;
-    position: absolute;
-    border: 1px solid green;
-    border-radius: 5px;
-    top: -26px;
-    margin-left: 4%;
-    transition: all 0.3s ease-in-out;
+  width: 68%;
+  height: 51vh;
+  position: absolute;
+  border: 1px solid green;
+  border-radius: 5px;
+  top: -26px;
+  margin-left: 4%;
+  transition: all 0.3s ease-in-out;
 }
 .top {
-    top: 120px;
-    position: relative;
+  top: 120px;
+  position: relative;
 }
 .dynamic-1 {
-    margin-top: 13px;
-    color: rgb(55, 116, 196);
-    font-size: 18px;
-    font-family: "Vollkorn", serif;
-    font-weight: 400;
+  margin-top: 13px;
+  color: rgb(55, 116, 196);
+  font-size: 18px;
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
 }
 .border .hi {
-    color: rgb(133, 182, 133);
-    margin-top: 33vh;
-    font-size: medium;
+  color: rgb(133, 182, 133);
+  margin-top: 33vh;
+  font-size: medium;
 }
 .mobile-left {
-    margin-top: 12rem;
+  margin-top: 12rem;
 }
 .t-job-mobile {
-    text-align: center;
+  text-align: center;
 }
 .t-job-mobile .text-dot {
-    font-size: 19px;
-    margin-top: 3rem;
-    padding: 0 15px;
-    /* text-decoration: underline; */
+  font-size: 19px;
+  margin-top: 3rem;
+  padding: 0 15px;
+  /* text-decoration: underline; */
 }
 .hire {
-    cursor: pointer;
-    text-decoration: underline;
-    background-color: rgb(165, 173, 168);
-    padding: 2px 7px;
-    border-radius: 5px;
-    border: 2px solid rgb(197, 26, 26);
-    color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: #404040;
+  padding: 2px 7px;
+  border-radius: 5px;
+  border: 2px solid #1c1917;
+  color: #a3a3a3;
 }
 .text-dot {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 .dot-mobile {
-    width: 10px;
-    height: 10px;
-    background-color: green;
-    border: 2px solid coral;
-    border-radius: 50%;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-    left: -1px;
-    top: 1.1vh;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border: 2px solid coral;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  left: -1px;
+  top: 1.1vh;
 }
 #i-am {
-    font-size: 17px;
+  font-size: 17px;
+  color: #a1a1aa;
 }

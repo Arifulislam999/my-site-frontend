@@ -1,83 +1,91 @@
+:root {
+  --dark-1: #a3a3a3;
+  --dark-2: #d4d4d4;
+  --dark-3: #404040;
+  --dark-4: #111827;
+  --dark-5: #64748b;
+}
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Kanit:wght@200&family=Libre+Baskerville:ital@1&display=swap");
 .s-title {
-    margin-top: 30px;
-    font-family: "Bitter", serif;
+  margin-top: 30px;
+  font-family: "Bitter", serif;
+  color: var(--dark-1);
 }
 .s-title-1 {
-    font-size: 33px;
-    font-family: "Libre Baskerville", serif;
-    margin-top: 40px;
-    position: relative;
-    margin-bottom: 30px;
-    color: rgb(82, 102, 107);
-    display: table;
+  font-size: 33px;
+  font-family: "Libre Baskerville", serif;
+  margin-top: 40px;
+  position: relative;
+  margin-bottom: 30px;
+  color: var(--dark-2);
+  display: table;
 }
 .s-title-1::after {
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    left: 0;
-    top: 40px;
-    border: 1px solid black;
-    background-color: red;
-    border-radius: 10px;
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  left: 0;
+  top: 40px;
+  border: 1px solid black;
+  background-color: var(--dark-2);
+  border-radius: 10px;
 }
 .services-text {
-    font-family: "Libre Baskerville", serif;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 10px;
-    color: rgb(26, 56, 83);
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 10px;
+  color: var(--dark-5);
 }
 .ser-box {
-    width: 98%;
-    max-height: 25vh;
-    overflow-x: scroll;
-    background-color: rgb(163 163 163);
-    margin: 30px 0;
-    /* border: 1px solid black; */
-    border-radius: 5px;
-    padding-left: 35px;
-    box-shadow: 2px 1px 2px black;
-    border-left: 3px solid red;
+  width: 98%;
+  max-height: 25vh;
+  overflow-x: scroll;
+  background-color: var(--dark-3);
+  margin: 30px 0;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding-left: 35px;
+  box-shadow: 2px 1px 2px black;
+  border-left: 3px solid var(--dark-4);
 }
 
 .ser-box-h1 {
-    color: rgb(231 229 228);
-    font-family: "Bitter", serif;
-    padding: 20px 0;
-    text-shadow: 2px 1px 1px lavender;
+  color: var(--dark-1);
+  font-family: "Bitter", serif;
+  padding: 20px 0;
+  text-shadow: 2px 1px 1px lavender;
 }
 .ser-box-p {
-    font-family: "Libre Baskerville", serif;
-    font-size: 18px;
-    color: aliceblue;
-    padding-right: 10px;
-    padding-bottom: 10px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  color: var(--dark-5);
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .s-q {
-    font-size: 20px;
-    font-family: "Bitter", serif;
-    color: greenyellow;
+  font-size: 20px;
+  font-family: "Bitter", serif;
+  color: greenyellow;
 }
 @media screen and (max-width: 580px) {
-    .ser-box {
-        max-height: 40vh;
-        padding: 0px 15px;
-        margin-left: 10px;
-        text-align: justify;
-    }
-    .ser-box-h1 {
-        font-size: 22px;
-    }
-    .ser-box-p {
-        font-size: 17px;
-    }
-    .services-text {
-        text-align: justify;
-        margin-left: 5px;
-        padding-right: 0px;
-    }
+  .ser-box {
+    max-height: 40vh;
+    padding: 0px 15px;
+    margin-left: 10px;
+    text-align: justify;
+  }
+  .ser-box-h1 {
+    font-size: 22px;
+  }
+  .ser-box-p {
+    font-size: 17px;
+  }
+  .services-text {
+    text-align: justify;
+    margin-left: 5px;
+    padding-right: 0px;
+  }
 }

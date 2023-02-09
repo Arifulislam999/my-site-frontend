@@ -4,160 +4,160 @@
     display: flex;
 } */
 .home-left {
-    width: 60%;
-    overflow-y: scroll;
+  width: 60%;
+  overflow-y: scroll;
 }
 .home-right {
-    height: 120vh;
-    /* background-color: rgb(187, 247, 242); */
-    /* background-color: #223044; */
-    background-image: linear-gradient(65deg, #223044, #2b466b, #3679d8);
-    width: 40%;
-    position: fixed;
-    right: 0;
-    top: -40px;
-    border-left: 2px solid rgb(18, 230, 18);
-    transition: all 0.2s ease-in-out;
+  height: 120vh;
+  /* background-color: rgb(187, 247, 242); */
+  /* background-color: #223044; */
+  background-image: linear-gradient(65deg, #16253a, #233652, #1b2430);
+  width: 40%;
+  position: fixed;
+  right: 0;
+  top: -40px;
+  border-left: 1px solid rgb(23, 24, 23);
+  transition: all 0.2s ease-in-out;
 }
 .home-right-scroll {
-    height: 100vh;
-    background-image: linear-gradient(65deg, #0c192c, #2b466b, #206fdd);
-    width: 32%;
-    position: fixed;
-    right: 0;
-    transition: all 0.3s ease-in-out;
-    top: 0;
-    bottom: 0;
-    border-left: 1px solid red;
+  height: 100vh;
+  background-image: linear-gradient(65deg, #0c192c, #20334d, #0d1f38);
+  width: 32%;
+  position: fixed;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid black;
 }
 .hero-center {
-    position: absolute;
-    width: 100%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .border-1 {
-    width: 68%;
-    height: 51vh;
-    position: absolute;
-    border: 1px solid rgb(177, 43, 166);
-    border-radius: 5px;
-    top: -26px;
-    margin-left: 4%;
-    transition: all 0.3s ease-in-out;
+  width: 68%;
+  height: 51vh;
+  position: absolute;
+  border: 1px solid rgb(177, 43, 166);
+  border-radius: 5px;
+  top: -26px;
+  margin-left: 4%;
+  transition: all 0.3s ease-in-out;
 }
 .border-2 {
-    width: 68%;
-    height: 51vh;
-    position: absolute;
-    border: 1px solid rgb(168, 18, 38);
-    top: -26px;
-    margin-left: 4%;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
+  width: 68%;
+  height: 51vh;
+  position: absolute;
+  border: 1px solid rgb(168, 18, 38);
+  top: -26px;
+  margin-left: 4%;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 }
 .hero-right-inner {
-    width: 76%;
-    height: 44vh;
-    border: 1px solid rgb(184, 146, 77);
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 5px;
+  width: 76%;
+  height: 44vh;
+  border: 1px solid rgb(184, 146, 77);
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
 }
 .hero-right-inner img {
-    height: 60%;
-    width: 85%;
-    /* border: 1px solid rgb(255, 0, 13); */
+  height: 60%;
+  width: 85%;
+  /* border: 1px solid rgb(255, 0, 13); */
 }
 
 /* // hi section  */
 .hi-title {
-    transition: all 0.3s ease-in-out;
-    margin-top: 32vh;
+  transition: all 0.3s ease-in-out;
+  margin-top: 32vh;
 
-    font-size: 19px;
-    color: rgb(113 113 122);
+  font-size: 19px;
+  color: rgb(113 113 122);
 }
 .hi-title-1 {
-    margin-top: 34vh;
-    transition: all 0.3s ease-in-out;
-    font-size: 19px;
-    color: #59abb1;
+  margin-top: 34vh;
+  transition: all 0.3s ease-in-out;
+  font-size: 19px;
+  color: #59abb1;
 }
 .dynamic {
-    margin-top: 13px;
-    color: rgb(55, 116, 196);
-    font-size: 23px;
-    font-family: "Vollkorn", serif;
-    font-weight: 400;
+  margin-top: 13px;
+  color: rgb(55, 116, 196);
+  font-size: 23px;
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
 }
 .t-job-1 {
-    font-size: 19px;
-    margin-top: 10vh;
-    position: relative;
-    color: rgb(221, 171, 79);
-    display: inline-block;
-    left: 50%;
-    transform: translate(-50%);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  font-size: 19px;
+  margin-top: 10vh;
+  position: relative;
+  color: rgb(221, 171, 79);
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .t-job-inner {
-    font-size: 17px;
-    margin-top: 10vh;
-    position: relative;
-    color: rgb(58, 186, 237);
-    display: inline-block;
-    left: 50%;
-    transform: translate(-50%);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  font-size: 17px;
+  margin-top: 10vh;
+  position: relative;
+  color: rgb(58, 186, 237);
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 #hire-arif {
-    text-align: center;
-    margin-top: 10px;
-    cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
 }
 #hire-arif strong {
-    border: 1px solid red;
-    padding: 3px 8px;
-    border-radius: 4px;
-    background-color: #3a3b3c;
+  border: 1px solid red;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background-color: #3a3b3c;
 
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 #hire-arif strong:hover {
-    background-color: #008080;
-    border: 2px solid black;
+  background-color: #008080;
+  border: 2px solid black;
 }
 .t-job .t-job-inner::after {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: cornflowerblue;
-    top: 21px;
-    left: 0;
-    position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: cornflowerblue;
+  top: 21px;
+  left: 0;
+  position: absolute;
 }
 .t-job .t-job-1::after {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: cornflowerblue;
-    top: 25px;
-    left: 0;
-    position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: cornflowerblue;
+  top: 25px;
+  left: 0;
+  position: absolute;
 }
 
 .dot {
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border: 2px solid coral;
-    border-radius: 50%;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-    left: -4%;
-    top: 1vh;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border: 2px solid coral;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  left: -4%;
+  top: 1vh;
 }

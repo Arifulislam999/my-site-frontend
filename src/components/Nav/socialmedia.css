@@ -1,72 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=EB+Garamond&family=Kanit:wght@200&family=Libre+Baskerville:ital@1&display=swap");
 
 .social-media img {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid red;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
 }
 .social-media img:hover {
-    transform: scale(1.18);
+  transform: scale(1.18);
 }
 .develop {
-    margin-left: 30px;
-    margin-top: 12vh;
+  margin-left: 30px;
+  margin-top: 12vh;
 }
 .develop p {
-    font-size: 20px;
-    font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
 }
 .develop strong {
-    color: rgb(89, 165, 201);
-    margin-left: 5px;
-    font-family: "EB Garamond", serif;
+  color: rgb(89, 165, 201);
+  margin-left: 5px;
+  font-family: "EB Garamond", serif;
 }
 .social-media-hidden img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 .social-media-hidden {
-    /* transition: all 0.1s ease-in-out; */
-    transform: translateX(350px);
+  /* transition: all 0.1s ease-in-out; */
+  transform: translateX(350px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+@media screen and (max-width: 580px) {
+  .social-media {
+    margin-top: 5vh;
+    transition: all 0.2s ease-in-out;
+  }
+  .social-media img {
+    width: 35px;
+    height: 35px;
+  }
+  .social-media-hidden img {
+    width: 35px;
+    height: 35px;
+  }
+  .develop {
+    margin-top: 5vh;
+  }
+  .social-media-hidden {
+    /* transition: all 0.2s ease-in-out; */
+    transform: translateX(250px);
+  }
+  .social-media-hidden {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
-}
-@media screen and (max-width: 580px) {
-    .social-media {
-        margin-top: 5vh;
-        transition: all 0.2s ease-in-out;
-    }
-    .social-media img {
-        width: 35px;
-        height: 35px;
-    }
-    .social-media-hidden img {
-        width: 35px;
-        height: 35px;
-    }
-    .develop {
-        margin-top: 5vh;
-    }
-    .social-media-hidden {
-        transition: all 0.2s ease-in-out;
-        transform: translateX(250px);
-    }
-    .social-media-hidden {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10vh;
-    }
+  }
 }
