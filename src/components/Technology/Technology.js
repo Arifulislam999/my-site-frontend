@@ -46,6 +46,7 @@ import react from "../../Image/react.png";
 import html from "../../Image/html.png";
 import css from "../../Image/css.png";
 import express from "../../Image/express.avif";
+import Next from "../../Image/next.png";
 
 export default class Technology extends Component {
   render() {
@@ -101,6 +102,7 @@ export default class Technology extends Component {
           <TechonologhBox img={redux} />
           <TechonologhBox img={react} />
           <TechonologhBox img={express} />
+          <TechonologhBox img={Next} />
         </Slider>
       </div>
     );
