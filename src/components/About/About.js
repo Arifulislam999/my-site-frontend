@@ -27,7 +27,7 @@ const About = () => {
         </div>
         <div className="address">
           <h2 className="name">BIRTHDAY</h2>
-          <h3>15th December 1999</h3>
+          <h3>15th December</h3>
         </div>
         {/* <div className="address">
                     <h2 className="name">AGE</h2>
