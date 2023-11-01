@@ -58,7 +58,7 @@ const Skills = () => {
             {toggle1 && (
                 <div className="skill-des">
                     <SkillBox
-                        title="None JS "
+                        title="Node JS "
                         title2={<strong>( June,2022-Today )</strong>}
                         desc="JavaScript is one of the most popular programming languages. The powerful Node.js runtime environment has been ranked the technology most commonly used by professional developers. Node.js is an event-driven JavaScript runtime. Node has myriad potential uses for JavaScript development including being a great environment for building efficient network applications. Node.js is a very powerful JavaScript-based platform built on Google Chrome's JavaScript V8 Engine. It is used to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications."
                     />
