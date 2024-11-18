@@ -1,15 +1,7 @@
-import React, { useState } from "react";
 import "./About.css";
 import download from "../../Image/download.png";
 
 const About = () => {
-  const [cv, setCv] = useState(false);
-  const handlerCv = () => {
-    setCv(true);
-    setTimeout(() => {
-      setCv(false);
-    }, 2000);
-  };
   return (
     <div className="about">
       <h3 className="about-me">ABOUT ME</h3>
@@ -49,20 +41,22 @@ const About = () => {
           <h2 className="name">SKYPE</h2>
           <h3>arif.902</h3>
         </div>
-        <div className="cv-box" onClick={handlerCv}>
-          <img
-            draggable="false"
-            className="img-cv"
-            src={download}
-            alt="download"
-          />
-          <p>DOWNLOAD CV</p>
+        <div className="cv-box">
+          <a
+            href="https://drive.google.com/drive/folders/1GW-fV45gwcWsmXuuPGc7q1AsSej_N7VY"
+            download="Resume-Arif.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              draggable="false"
+              className="img-cv"
+              src={download}
+              alt="download"
+            />
+            <p>Download My Resume</p>
+          </a>
         </div>
-        {cv && (
-          <div className="cv">
-            <span>CV not available yet.</span>
-          </div>
-        )}
       </div>
     </div>
   );
