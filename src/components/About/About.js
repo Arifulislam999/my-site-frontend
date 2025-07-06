@@ -7,7 +7,7 @@ const About = () => {
       <h3 className="about-me">ABOUT ME</h3>
       <h1 className="about-biography">Biography</h1>
       <p className="about-text">
-        I'm a Freelancer Front-end Developer with over 1.2 years of experience.
+        I'm a Full Stack Developer specializing in JavaScript, React.js, and modern web technologies with over 2+ years of experience.
         I'm from Kushtia Islamic University,Bangladesh. I code and create web
         elements for amazing people around the world. I like work with new
         people. New people are new experiences
@@ -43,7 +43,7 @@ const About = () => {
         </div>
         <div className="cv-box">
           <a
-            href="https://drive.google.com/drive/folders/1GW-fV45gwcWsmXuuPGc7q1AsSej_N7VY"
+            href="https://drive.google.com/file/d/1e4dT5axoNNOPsQFk4gbrF3RQijDta2dX/view?usp=drive_link"
             download="Resume-Arif.pdf"
             target="_blank"
             rel="noreferrer"
